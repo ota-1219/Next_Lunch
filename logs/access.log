@@ -1,0 +1,3 @@
+172.27.0.1 - - [02/Nov/2019:16:34:48 +0900] "GET /index.html HTTP/1.1" 200 12 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" "-"
+172.27.0.1 - - [02/Nov/2019:16:34:54 +0900] "GET /phpinfo.php HTTP/1.1" 200 90507 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" "-"
+172.27.0.1 - - [02/Nov/2019:16:41:53 +0900] "GET / HTTP/1.1" 200 2438 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" "-"
