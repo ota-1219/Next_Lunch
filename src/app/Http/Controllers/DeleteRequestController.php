@@ -61,7 +61,7 @@ class DeleteRequestController extends Controller
 
         // \Debugbar::info($reasonResult);
         // \Debugbar::info($data);
-        return view('/manage_list', compact('data', 'reasonResult', 'note', 'resData'));
+        return view('/manage_list', compact('data'));
     }
 
     public function accept($id)

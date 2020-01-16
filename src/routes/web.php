@@ -17,17 +17,17 @@ Route::get('/', 'SearchController@index');
 Route::get('/search', 'SearchController@search');
 
 //新規登録
-Route::match(['get', 'post'], 'create', 'CrudController@create');
+Route::match(['get', 'post'], 'create', 'CreateController@create');
 Route::match(['get', 'post'], 'create_done', 'CrudController@create_done');
-Route::get('create_check', 'CrudController@create_check');
+Route::get('create_check', 'CreateController@create_check');
 
 //詳細画面
-Route::get('/detail/{id}', 'CrudController@store');
+Route::get('/detail/{id}', 'DetailController@store');
 
 // 編集
-Route::get('/edit/{id}', 'CrudController@edit');
-Route::get('/edit_check', 'CrudController@edit_check');
-Route::post('/edit_done', 'CrudController@edit_done');
+Route::get('/edit/{id}', 'EditController@edit');
+Route::get('/edit_check', 'EditController@edit_check');
+Route::post('/edit_done', 'EditController@edit_done');
 
 //削除依頼
 Route::get('/delete_request/{id}', 'DeleteRequestController@index');
@@ -42,4 +42,5 @@ Route::match(['get', 'post'], '/manage_list', 'DeleteRequestController@manage');
 Route::match(['get', 'post'], 'login', 'LoginController@login');
 Route::get('logout', 'LoginController@logout');
 
+// 今日はここボタン
 Route::post('/countup', 'TodayThisRestaurantController@countUpUseCount');
