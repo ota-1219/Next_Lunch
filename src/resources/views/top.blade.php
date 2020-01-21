@@ -5,7 +5,7 @@
         <div class="col-12">
             <h2 class="text-center">ようこそ</h2>
             <div class="mx-auto mb-2" style="width:250px;">
-                <span class="h3"><span class="badge badge-warning">ジャンルを選択して検索テスト</span></span>
+                <span class="h3"><span class="badge badge-warning">ジャンルを選択して検索</span></span>
             </div>
 
 
