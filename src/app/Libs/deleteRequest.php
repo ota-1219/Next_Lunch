@@ -47,19 +47,4 @@ class deleteRequest
         DB::table('delete_request')->where('restaurant_id', $id)->delete();
         return null;
     }
-
-    public static function commit_test()
-    {
-
-    }
-
-    public static function commit_test_2()
-    {
-
-    }
-
-    public static function commit_test_3()
-    {
-
-    }
 }
